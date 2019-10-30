@@ -1,0 +1,152 @@
+body {
+  margin-top: 20px;
+  height: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #68426a, #52154e 100%);
+}
+
+table.main {
+  border-collapse: separate;
+  border: solid white 1px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 14px;
+	/* margin-left: 70; */
+}
+
+td, th {
+  border-left:solid white 1px;
+  border-top:solid white 1px;
+  height:35px;
+  width:35px;
+}
+
+th {
+
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+/* Div Css */
+
+.grad1 {
+  height: 800px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+/* Top Week name */
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 2.5px;
+  height: 32px; /* Should be removed. Only for demonstration */
+  
+}
+
+.left {
+    width: 13.5%;
+    font-size: 20px;
+    text-align: center; 
+    color: #ffffff;
+    font-family: Tahoma;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first_element_time { 
+  position: relative; 
+  left: 201px;
+  top: -440px;
+  width: 60px; 
+/*  background-color: red; */ 
+/* border: solid 1px #c643ca; */
+/* font-size: 24px; */ 
+  text-align: center; 
+  height:450px;
+  opacity: 0.9; 
+/*  line-height: 200%; */
+}
+
+table.time {
+    /* border-collapse:separate;
+  border:solid white 1px;
+  border-radius:6px;
+  -moz-border-radius:6px; */
+  color: #ffffff; 
+  font-family: Tahoma;
+  font-size: 14px;
+  height: 98%;
+/* margin-left: 70; */
+}
+
+.ch-select {
+  position: relative;
+  color: white;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  top: -855px;
+  opacity: 0.9;
+  border: 2px solid white;
+  height: 353px;
+  border-radius: 6px;
+  padding: 6px;
+  width: 181px;
+  left: 1px;
+}
+
+.first-channel {
+    position: relative;
+    top: -1163px;
+    width: 167px;
+    background-color: #9b59bb;
+    /* border: solid 2px #c643ca; */
+    font-size: 16px;
+    text-align: center;
+    height: 60px;
+    opacity: 0.9;
+    padding: 4px;
+    right: -11px;
+}
+
+.second-channel {
+    position: relative;
+    top: -1140px;
+    width: 167px;
+    background-color: #73458e;
+    /* border: solid 2px #c643ca; */
+    font-size: 16px;
+    text-align: center;
+    height: 79px;
+    opacity: 0.9;
+    padding: 4px;
+    right: -11px;
+}
+
+.third-channel {
+    position: relative;
+    top: -1119px;
+    width: 167px;
+    background-color: #892190;
+    /* border: solid 2px #c643ca; */
+    font-size: 16px;
+    text-align: center;
+    height: 78px;
+    opacity: 0.9;
+    padding: 4px;
+    right: -11px;
+}
